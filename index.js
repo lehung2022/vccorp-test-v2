@@ -1,8 +1,6 @@
 'use strict';
 const sliders = document.querySelectorAll("[data-slider]");
-
 const sliderInit = function (currentSlider) {
-
   const sliderContainer = currentSlider.querySelector("[data-slider-container]");
   const sliderPrevBtn = currentSlider.querySelector("[data-slider-prev]");
   const sliderNextBtn = currentSlider.querySelector("[data-slider-next]");
